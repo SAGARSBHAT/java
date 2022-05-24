@@ -27,7 +27,7 @@ public class Customer {
 
 	@Override
 	public String toString() {
-		return "Customer [custId="+ custId +", custName=" + custName+", creditLimit=" + creditLimit + "]";
+		return "Customer [custId= "+ custId +", custName=" + custName+", creditLimit=" + creditLimit + "]";
 	}
 
 	public int getCustId() {
